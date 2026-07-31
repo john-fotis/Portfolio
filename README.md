@@ -5,8 +5,8 @@ This repository contains a HugoBlox Developer Portfolio site, configured for dep
 ## Local development
 
 ```bash
-npm install
-hugo server
+pnpm install
+pnpm run dev
 ```
 
 ## Build

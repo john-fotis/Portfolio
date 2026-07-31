@@ -9,7 +9,7 @@ postnominals: []
 status:
   icon: "💻"  # Emoji shown on avatar badge: 💻 developer, 🎨 designer, 🚀 startup, 🔬 researcher, 🎓 student
 role: Software Engineer
-email: john.fotis@example.com
+email: giannisfotis@gmail.com
 bio: |
   Software engineer building reliable web experiences, backend services, and automation workflows.
   Passionate about open source, product craftsmanship, and scalable system design.
@@ -20,7 +20,7 @@ affiliations:
 
 links:
   - icon: at-symbol
-    url: mailto:john.fotis@example.com
+    url: mailto:giannisfotis@gmail.com
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/john-fotis
@@ -45,7 +45,7 @@ education:
       Senior project on distributed caching systems.
     button:
       text: View Project
-      url: https://github.com/alexjohnson/senior-project
+      url: https://github.com/john-fotis/senior-project
       icon: brands/github
 
 experience:
