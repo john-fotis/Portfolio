@@ -18,10 +18,10 @@ sections:
         enable: true
         prefix: "I build"
         strings:
-          - "full-stack web apps"
-          - "scalable APIs"
-          - "beautiful UIs"
-          - "open source tools"
+          - "automated infrastructures"
+          - "cloud-native ecosystems"
+          - "resilient network architectures"
+          - "high-availability environments"
         type_speed: 70
         delete_speed: 40
         pause_time: 2500
