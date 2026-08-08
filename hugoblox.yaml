@@ -1,7 +1,7 @@
 build:
   hugo_version: '0.162.0'
 deploy:
-  # Deployment target: github-pages, netlify, vercel, cloudflare, or none
+  # Deployment target options: github-pages, netlify, vercel, cloudflare, or none
   host: 'github-pages'
 template:
   id: "dev-portfolio"

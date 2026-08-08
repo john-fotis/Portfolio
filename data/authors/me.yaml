@@ -7,7 +7,7 @@ name:
   family: Fotis
 postnominals: []
 status:
-  icon: "💻"  # Emoji shown on avatar badge: 💻 developer, 🎨 designer, 🚀 startup, 🔬 researcher, 🎓 student
+  icon: "💡"
 role: Software Engineer
 email: giannisfotis@gmail.com
 bio: |
@@ -25,54 +25,80 @@ links:
   - icon: brands/github
     url: https://github.com/john-fotis
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/john-fotis/
+    url: https://www.linkedin.com/in/john-fotis/?locale=en-US
   - icon: brands/x
-    url: https://x.com/john_fotis
+    url: https://x.com/giannisfotis3
+  - icon: brands/mastodon
+    url: https://mastodon.social/@johnfotis
 
 interests:
-  - Web Development
-  - Cloud Architecture
-  - Open Source
-  - Developer Experience
+  - Task Automation
+  - Internet of Things
+  - Wireless Networking
+  - Network Architecture
+  - Cyber Security
+  - PC hardware
 
 education:
-  - degree: B.S. Computer Science
-    institution: State University
-    start: 2015-09-01
-    end: 2019-05-31
+  - degree: M.Sc. in Computer, Telecommunications & Network Engineering
+    institution: National and Kapodistrian University of Athens
+    start: 2023-10-01
+    end: 2025-10-27
     summary: |
-      Focus on software engineering and distributed systems.
-      Senior project on distributed caching systems.
+      Assessing the Energy and Resilience Trade-offs of Service Mesh Integration and DDoS Mitigation in a Cloud-Native 5G Environment.
     button:
       text: View Project
-      url: https://github.com/john-fotis/senior-project
+      url: https://pergamos.lib.uoa.gr/item/uoadl:5311065
+      icon: brands/google-scholar
+  - degree: B.Sc. in Informatics and Telecommunications
+    institution: National and Kapodistrian University of Athens
+    start: 2017-10-02
+    end: 2022-07-04
+    summary: |
+      Performance analysis of LoRa and LoRaWAN communications.
+    button:
+      text: View Project
+      url: https://github.com/john-fotis/LoRa-LoRaWAN-Performance-Analysis
       icon: brands/github
 
 experience:
-  - role: Senior Software Engineer
-    org: Tech Corp
-    start: 2023-01-01
+  - role: Information Systems Consultant & IT Specialist
+    org: 96 High Military Command (Hellenic Armed Forces)
+    date_start: 2026-02-25
+    date_end: 2026-08-25
     summary: |
-      Lead development of microservices architecture serving 1M+ users.
-      Improved API response time by 40% through optimization.
-      Mentored team of 5 junior developers.
-  - role: Full-Stack Developer
-    org: Startup Inc
-    start: 2021-06-01
-    end: 2022-12-31
+      * **Disaster Recovery Architecture:** Designed and deployed a robust DR solution utilizing Veeam to automate backups from VMware ESXi to a TrueNAS storage environment, ensuring high availability of critical services.
+      * **Infrastructure & Network Management:** Administered a Windows Server infrastructure supporting 1,000+ personnel. Maintained and troubleshot the military Local Area Network (LAN), optimizing performance across switches, routers, and edge hardware.
+      * **Security & Operations:** Enforced strict military-grade security policies and handled classified information while providing Tier 1/2 helpdesk support and resolving complex system anomalies.
+  - role: DevOps Engineer
+    org: Fogus Innovations & Services P.C.
+    start: 2023-06-01
+    end: 2026-01-31
     summary: |
-      Built and deployed 3 production applications from scratch.
-      Implemented CI/CD pipeline reducing deployment time by 60%.
-      Led migration from monolith to microservices architecture.
-  - role: Junior Developer
-    org: Web Agency
-    start: 2020-01-01
-    end: 2021-05-31
+      * **Infrastructure Automation & DevEx:** Engineered automated CI/CD deployment pipelines and custom scripting workflows using **Bash and Python**, significantly reducing manual release overhead and improving developer velocity.
+      * **High-Availability On-Premises Architecture:** Provisioned, hardened, and maintained on-premise Linux server environments, applying cloud-native reliability and fault-tolerance practices to physical infrastructure.
+      * **Systems & Network Optimization:** Troubleshot complex OS-level, virtualization, and networking bottlenecks across the application lifecycle to ensure continuous service availability and minimal downtime.
+  - role: Junior DevOps Engineer
+    org: Upstream S.A.
+    start: 2022-05-03
+    end: 2023-05-02
     summary: |
-      Developed client websites using React and modern web technologies.
-      Participated in code reviews and agile ceremonies.
+      * **Operational Automation & Toil Reduction:** Developed a Python automation tool for the integrity checking of campaign draw results, eliminating manual overhead and saving the monitoring team 30 minutes of daily operational effort.
+      * **Observability & Performance Optimization:** Led a migration project from Tableau to Grafana utilizing Helm and the Prometheus Postgres exporter. Drastically improved system performance, reducing UI loading time from 4 minutes to 15 seconds and increasing backend efficiency by over 75 times.
 
 skills:
+  - name: Soft Skills
+    items:
+      - label: Attention to detail
+        level: 5
+      - label: Analysis
+        level: 5
+      - label: Organization
+        level: 5
+      - label: Teamwork
+        level: 5
+      - label: Communication
+        level: 5
   - name: Development
     items:
       - label: TypeScript
@@ -82,19 +108,25 @@ skills:
       - label: Node.js
         level: 5
       - label: Python
-        level: 4
+        level: 5
   - name: DevOps
     items:
       - label: Docker
-        level: 4
+        level: 5
       - label: AWS
-        level: 4
+        level: 5
       - label: CI/CD
         level: 5
 
 languages:
-  - name: English
+  - name: Greek
     level: 5
     label: Native
+  - name: English
+    level: 5
+    label: Fluent
+  - name: German
+    level: 3
+    label: Intermediate
 
 awards: []

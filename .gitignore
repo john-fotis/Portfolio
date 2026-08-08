@@ -36,3 +36,7 @@ resources/
 # Editor/IDE
 # .idea/
 # .vscode/
+
+# Hugo
+jsconfig.json
+hugo_stats.json
