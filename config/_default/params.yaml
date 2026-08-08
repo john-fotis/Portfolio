@@ -19,7 +19,7 @@ hugoblox:
     # Schema.org type for structured data
     type: person                        # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: "Software Engineer"
+    tagline: "DevOps Engineer"
     # Site meta description for search engines and social sharing
     description: "Personal portfolio for John Fotis, showcasing software projects, technical experience, and writing."
     # Social accounts (used for meta tags like Twitter Cards)

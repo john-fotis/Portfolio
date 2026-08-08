@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ''
-summary: ''
+title: ""
+summary: ""
 date: 2026-08-06
 type: landing
 
@@ -55,7 +55,7 @@ sections:
           - projects
       buttons:
         - name: All
-          tag: '*'
+          tag: "*"
         - name: Infrastructure as Code
           tag: Infrastructure
         - name: Systems & Development
@@ -63,11 +63,6 @@ sections:
         - name: Research & Telecom
           tag: Research
       default_button_index: 0
-      # Archive link auto-shown if more projects exist than 'count' above
-      # archive:
-      #   enable: false # Set to false to explicitly hide
-      #   text: "Browse All" # Customize text
-      #   link: "/work/" # Custom URL
     design:
       columns: 3
       background:
@@ -82,9 +77,9 @@ sections:
     id: skills
     content:
       title: "Tech Stack"
-      subtitle: "Technologies I use to build things"
+      subtitle: "Technologies I use to build and automate apps"
       categories:
-        - name: Operating Systems
+        - name: Operating Systems & Hypervisors
           items:
             - name: Debian
               icon: devicon/debian
@@ -94,8 +89,6 @@ sections:
               icon: devicon/proxmox
             - name: Windows Server
               icon: devicon/windows11
-            # - name: VMware ESXi
-            #   icon: devicon/vsphere
         - name: Languages
           items:
             - name: YAML
@@ -132,8 +125,6 @@ sections:
               icon: brands/authentik
             - name: Vaultwarden
               icon: brands/vaultwarden
-            # - name: OpenVPN
-            #   icon: brands/openvpn
             - name: Wireguard
               icon: brands/wireguard
             - name: Tailscale
@@ -168,7 +159,6 @@ sections:
               icon: devicon/influxdb
             - name: Slack
               icon: devicon/slack
-
     design:
       style: grid
       show_levels: false
@@ -186,42 +176,38 @@ sections:
       title: Experience
       date_format: Jan 2006
       items:
-        - title: Senior Software Engineer
-          company: Tech Corp
+        - title: Information Systems Consultant & IT Specialist
+          company: 96 High Military Command (Hellenic Armed Forces)
           company_url: ""
           company_logo: ""
-          location: San Francisco, CA
-          date_start: "2023-01-01"
-          date_end: ""
+          location: Chios, Greece
+          date_start: "2026-02-25"
+          date_end: "2026-08-25"
           description: |2-
-            * Lead development of microservices architecture serving 1M+ users
-            * Improved API response time by 40% through optimization
-            * Mentored team of 5 junior developers
-            * Tech stack: React, Node.js, PostgreSQL, AWS
-        - title: Full-Stack Developer
-          company: Startup Inc
-          company_url: ""
+            * **Disaster Recovery Architecture:** Designed and deployed a robust DR solution utilizing Veeam to automate backups from VMware ESXi to a TrueNAS storage environment.
+            * **Infrastructure & Network Management:** Administered a Windows Server infrastructure supporting 1,000+ personnel. Maintained and troubleshot the military Local Area Network (LAN), optimizing edge hardware.
+            * **Security & Operations:** Enforced strict military-grade security policies and handled classified information while providing Tier 1/2 helpdesk support.
+        - title: DevOps Engineer
+          company: Fogus Innovations & Services P.C.
+          company_url: "https://fogus.gr/"
           company_logo: ""
-          location: Remote
-          date_start: "2021-06-01"
-          date_end: "2022-12-31"
+          location: Athens, Greece
+          date_start: "2023-06-01"
+          date_end: "2026-01-31"
           description: |2-
-            * Built and deployed 3 production applications from scratch
-            * Implemented CI/CD pipeline reducing deployment time by 60%
-            * Collaborated with design team on UI/UX improvements
-            * Tech stack: Next.js, Express, MongoDB, Docker
-        - title: Junior Developer
-          company: Web Agency
-          company_url: ""
+            * **Infrastructure Automation:** Engineered automated CI/CD deployment pipelines and custom scripting workflows using Bash and Python.
+            * **High-Availability Architecture:** Provisioned, hardened, and maintained on-premise Linux server environments, applying cloud-native fault-tolerance practices.
+            * **Systems Optimization:** Troubleshot complex OS-level, virtualization, and networking bottlenecks to ensure continuous service availability.
+        - title: Junior DevOps Engineer
+          company: Upstream S.A.
+          company_url: "https://www.upstreamsystems.com/"
           company_logo: ""
-          location: New York, NY
-          date_start: "2020-01-01"
-          date_end: "2021-05-31"
+          location: Athens, Greece
+          date_start: "2022-05-03"
+          date_end: "2023-05-02"
           description: |2-
-            * Developed client websites using modern web technologies
-            * Maintained and updated legacy codebases
-            * Participated in code reviews and agile ceremonies
-            * Tech stack: React, WordPress, PHP, MySQL
+            * **Operational Automation:** Developed a Python automation tool for the integrity checking of campaign draw results, eliminating manual overhead.
+            * **Observability Migration:** Led a migration project from Tableau to Grafana utilizing Helm and the Prometheus Postgres exporter, drastically improving UI loading times from 4 minutes to 15 seconds.
     design:
       columns: "1"
       background:
@@ -229,40 +215,51 @@ sections:
           light: "#ffffff"
           dark: "#0d0d12"
       spacing:
-        padding: ["4rem", "0", "4rem", "0"]
+        padding: ["4rem", "0", "1rem", "0"]
 
-  # Recent Blog Posts
-  # - block: collection
-  #   id: blog
-  #   content:
-  #     title: Recent Posts
-  #     subtitle: 'Thoughts on web development, tech, and more'
-  #     text: ''
-  #     filters:
-  #       folders:
-  #         - blog
-  #       exclude_featured: false
-  #     count: 3
-  #     order: desc
-  #   design:
-  #     view: card
-  #     columns: 3
-  #     background:
-  #       color:
-  #         light: "#f5f5f5"
-  #         dark: "#08080c"
-  #     spacing:
-  #       padding: ["4rem", "0", "4rem", "0"]
+  # Education Timeline
+  - block: resume-experience
+    id: education
+    content:
+      title: Education
+      date_format: Jan 2006
+      items:
+        - title: M.Sc. in Computer, Telecommunications & Network Engineering
+          company: National and Kapodistrian University of Athens
+          company_url: "https://www.di.uoa.gr/eng"
+          company_logo: ""
+          location: Athens, Greece
+          date_start: "2023-10-01"
+          date_end: "2025-10-27"
+          description: |2-
+            * **Thesis:** Assessing the Energy and Resilience Trade-offs of Service Mesh Integration and DDoS Mitigation in a Cloud-Native 5G Environment.
+            * Published in the Pergamos Digital Library.
+        - title: B.Sc. in Informatics and Telecommunications
+          company: National and Kapodistrian University of Athens
+          company_url: "https://www.di.uoa.gr/en"
+          company_logo: ""
+          location: Athens, Greece
+          date_start: "2017-10-02"
+          date_end: "2022-07-04"
+          description: |2-
+            * **Thesis:** Performance analysis of LoRa and LoRaWAN communications.
+    design:
+      columns: "1"
+      background:
+        color:
+          light: "#ffffff"
+          dark: "#0d0d12"
+      spacing:
+        padding: ["1rem", "0", "4rem", "0"]
 
   # Contact Section
   - block: contact-info
     id: contact
     content:
       title: Get In Touch
-      subtitle: "Let's build something amazing together"
+      subtitle: "Let's build something robust together"
       text: |-
-        I'm always interested in hearing about new opportunities.
-        Whether you're looking to hire, collaborate, or just want to say hi, feel free to reach out!
+        Whether you want to discuss infrastructure architecture, network security, or open-source deployments, feel free to reach out!
       email: giannisfotis@gmail.com
       autolink: true
     design:
@@ -279,16 +276,15 @@ sections:
     content:
       title: "Open to Opportunities"
       text: |-
-        I'm currently looking for **software engineering** opportunities.
+        I'm currently targeting **cloud and platform engineering** roles in the Netherlands, Ireland, or Denmark from 2027 onwards.
 
-        Let's connect and discuss how I can help your team.
+        Let's connect and discuss how I can help your infrastructure scale.
       button:
         text: "Download Resume"
         url: uploads/resume.pdf
         new_tab: true
     design:
       card:
-        # Light mode: soft pastel theme gradient | Dark mode: rich deep gradient
         css_class: "bg-gradient-to-br from-primary-200 via-primary-100 to-secondary-200 dark:from-primary-600 dark:via-primary-700 dark:to-secondary-700"
         text_color: dark
       background:
